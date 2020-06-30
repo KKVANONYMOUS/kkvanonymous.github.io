@@ -1,10 +1,11 @@
 # Portfolio
-Source Code for my personal website
+Source Code for my personal website which is currently deployed at https://kkvanonymous.github.io/
 # Technical Stack
-1)HTML5<br>
-2)CSS3(Bootstrap)<br>
-3)JavaScript<br>
+<ul>
+<li>HTML5
+<li>CSS3(Bootstrap)
+<li>JavaScript
+</ul>
 # Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+This website is open for contributions. If you find any kind of bugs or performance issues, feel free to open a pull request
 
-Please make sure to update tests as appropriate.
