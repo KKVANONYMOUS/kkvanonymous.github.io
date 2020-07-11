@@ -159,7 +159,14 @@ a {}
 .skill {
     margin: 5px;
 }
+.skillicon {
+    font-size: 5em;
+    transition: 0.5s ease-in-out;
+}
 
+.skillicon:hover {
+    transform: scale(0.6)
+}
 .art {
     border: 1px solid black;
     border-width: 0;
