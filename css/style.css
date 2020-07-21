@@ -263,6 +263,7 @@ footer {
 }
 
 #topbtn {
+    display: none;
     will-change: transform;
     position: fixed;
     bottom: 20px;
@@ -274,6 +275,7 @@ footer {
     border: 1px solid #606060;
     border-radius: 10px;
     padding: 10px;
+    
 }
 
 #topbtn:hover {
