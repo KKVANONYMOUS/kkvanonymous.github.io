@@ -1,3 +1,13 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .credit{
+        font-size: 10px;
+    }
+}
+
 body,
 html {
     overflow-x: hidden;
@@ -14,7 +24,6 @@ body {
     font-family: 'Poppins';
 
 }
-
 
 #preloader {
     position: fixed;
@@ -46,16 +55,6 @@ body {
         -webkit-transform: rotate(359deg);
     }
 }
-
-/* h2::before,
-h2::after {
-    display: inline-block;
-    content: "";
-    border-top: .3rem solid lightgray;
-    width: 4rem;
-    margin: 0 1rem;
-    transform: translateY(-10px);
-} */
 li {
     list-style-type: none;
 }
@@ -101,6 +100,7 @@ a:hover {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-left: 5px;
+    height: 80px;   
 }
 
 .name_image {
@@ -121,7 +121,6 @@ a:hover {
 .header {
     height: 100vh;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 99%, 0 75%);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/Kunal.jpg');
     background-position: center;
     background-size: cover;
@@ -140,7 +139,6 @@ a:hover {
 .info {
     width: 400px;
     height: auto;
-    /* border-bottom: 2px solid #fff; */
     margin: 0;
     position: absolute;
     top: 50%;
@@ -151,16 +149,27 @@ a:hover {
 }
 
 #about {
-    padding: 4em 3em;
+    padding: 4em 2em;
 }
-
-.skill {
-    margin: 5px;
+.left_underline{
+    width: 30%;
+    height: 3px;
+    background-color: #00abff;
+    margin-left: 0;
 }
-
+.center_underline{
+    width: 40%;
+    height: 3px;
+    background-color: #00abff;
+    align-content: center;
+}
+.social_icon{
+    height: 50px;
+    margin: 10px 10px;
+}
 .skillicon {
-    font-size: 5em;
-    margin: 4px;
+    font-size: 4em;
+    margin: 3px;
 }
 
 .art {
@@ -180,7 +189,7 @@ a:hover {
 }
 
 .card-title {
-    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 black;
+   border-bottom: 1px solid black;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 2px;
@@ -196,15 +205,6 @@ a:hover {
     border-width: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.contact {
-    background: #f7f7f9;
-}
-
-.mail {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
 }
 
 .social {
@@ -256,7 +256,7 @@ a:hover {
 }
 
 footer {
-    background: rgba(0, 171, 255, 0.8);
+    background: rgba(0, 171, 255, 1);
 }
 .credit{
     font-size: 15px;
@@ -271,6 +271,7 @@ footer {
     border: none;
     color: #fff;
     background: #00abff;
+    border: 1px solid #606060;
     border-radius: 10px;
     padding: 10px;
 }
@@ -278,16 +279,4 @@ footer {
 #topbtn:hover {
     cursor: pointer;
     background: #606060;
-}
-/* Media Queries */
-@media (max-width: 768px) {
-    .display-4 {
-        font-size: 2.5rem;
-    }
-    .mail{
-        font-size: 12px;
-    }
-    .credit{
-        font-size: 10px;
-    }
 }
