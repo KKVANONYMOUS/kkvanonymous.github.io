@@ -214,10 +214,9 @@ a:hover {
 .social:hover {
     cursor: pointer;
 }
-
 .icons li {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 11px;
     height: 40px;
     width: 40px;
     background-color: #fff;
